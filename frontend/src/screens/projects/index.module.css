@@ -1,0 +1,68 @@
+.root {
+    opacity: 0;
+    transition: opacity .6s ease;
+}
+
+.ready {
+    opacity: 1;
+}
+
+.sectionContainer {
+    max-width: 1280px;
+    margin: 0 auto;
+    width: 100%;
+    padding-top: 40px;
+}
+
+.row {
+    display: flex;
+    gap: 24px;
+}
+
+.list {
+    border-radius: 8px;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+
+.showcase {
+
+}
+
+.screenshot {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    border-radius: 8px;
+    overflow: hidden;
+}
+
+.screenshotImage {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.screenshotBlock {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: rgba(0, 0, 0, .9);
+    font-size: 48px;
+    color: #fff;
+}
+
+.showcaseFooter {
+    background: #313131;
+    padding: 10px;
+    border-radius: 8px;
+    margin-top: 10px;
+}

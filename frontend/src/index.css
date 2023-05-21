@@ -1,0 +1,10 @@
+*, *::before, *::after {
+    box-sizing: border-box !important;
+}
+
+body {
+    font-family: "Trebuchet MS", sans-serif;
+    letter-spacing: 0.025em;
+    margin: 0;
+    background: #2d2d2d;
+}

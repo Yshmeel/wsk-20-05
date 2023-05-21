@@ -1,0 +1,26 @@
+.root {
+    background: #505050;
+    padding: 20px;
+    cursor: pointer;
+    text-decoration: none;
+    transition: .2s ease;
+    flex: 1 0 auto;
+}
+
+.root:active {
+    opacity: .5;
+}
+
+.root:hover {
+    background: #545454;
+}
+
+.active {
+
+}
+
+.name {
+    font-size: 18px;
+    color: #7e7e7e;
+    font-weight: bold;
+}

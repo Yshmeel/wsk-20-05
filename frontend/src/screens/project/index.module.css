@@ -1,0 +1,12 @@
+.root {
+    opacity: 0;
+    transition: .2s ease;
+}
+
+.ready {
+    opacity: 1;
+}
+
+.container {
+    padding: 40px;
+}
